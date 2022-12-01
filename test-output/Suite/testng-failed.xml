@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.Tests">
+        <methods>
+          <include name="Attend_Class_Page"/>
+          <include name="Report_Class_Page"/>
+          <include name="Student_Attendance_Page"/>
+          <include name="Take_a_Break_Page"/>
+          <include name="reportTeardown"/>
+          <include name="teardown"/>
+          <include name="Resume_Class_Page"/>
+          <include name="reportSetup"/>
+          <include name="setup"/>
+          <include name="Take_Test_Page"/>
+          <include name="Teachers_Dashboard_Page"/>
+          <include name="Logout_Page"/>
+          <include name="reponse"/>
+          <include name="Login_Page"/>
+          <include name="Pay_Fees_Page"/>
+        </methods>
+      </class> <!-- tests.Tests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-30T13:19:32Z" name="Default suite" finished-at="2022-11-30T13:23:36Z" duration-ms="243590">
+    <groups>
+    </groups>
+    <test started-at="2022-11-30T13:19:32Z" name="Default test" finished-at="2022-11-30T13:23:36Z" duration-ms="243590">
+      <class name="tests.Tests">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:17:48Z" name="reportSetup" finished-at="2022-11-30T13:17:56Z" duration-ms="7457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:17:56Z" name="setup" finished-at="2022-11-30T13:19:32Z" depends-on-methods="tests.ExtentReportsDemo.reportSetup" duration-ms="96803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:19:32Z" name="Login_Page" finished-at="2022-11-30T13:20:56Z" duration-ms="83233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:20:56Z" name="reponse" finished-at="2022-11-30T13:21:00Z" duration-ms="4021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Page status=SUCCESS method=Tests.Login_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Attend_Class_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:21:00Z" name="Attend_Class_Page" finished-at="2022-11-30T13:21:36Z" depends-on-methods="tests.Tests.Login_Page" duration-ms="36521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Attend_Class_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:21:36Z" name="reponse" finished-at="2022-11-30T13:21:37Z" duration-ms="492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Attend_Class_Page status=SUCCESS method=Tests.Attend_Class_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Take_Test_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:21:37Z" name="Take_Test_Page" finished-at="2022-11-30T13:21:57Z" depends-on-methods="tests.Tests.Attend_Class_Page" duration-ms="20438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Test_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:21:57Z" name="reponse" finished-at="2022-11-30T13:21:58Z" duration-ms="572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Take_Test_Page status=SUCCESS method=Tests.Take_Test_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Pay_Fees_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:21:58Z" name="Pay_Fees_Page" finished-at="2022-11-30T13:22:05Z" depends-on-methods="tests.Tests.Take_Test_Page" duration-ms="7054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pay_Fees_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:05Z" name="reponse" finished-at="2022-11-30T13:22:05Z" duration-ms="429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pay_Fees_Page status=SUCCESS method=Tests.Pay_Fees_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Teachers_Dashboard_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:05Z" name="Teachers_Dashboard_Page" finished-at="2022-11-30T13:22:14Z" depends-on-methods="tests.Tests.Pay_Fees_Page" duration-ms="9251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teachers_Dashboard_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:14Z" name="reponse" finished-at="2022-11-30T13:22:15Z" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Teachers_Dashboard_Page status=SUCCESS method=Tests.Teachers_Dashboard_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Take_a_Break_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:15Z" name="Take_a_Break_Page" finished-at="2022-11-30T13:22:20Z" depends-on-methods="tests.Tests.Teachers_Dashboard_Page" duration-ms="4968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_a_Break_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:20Z" name="reponse" finished-at="2022-11-30T13:22:20Z" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Take_a_Break_Page status=SUCCESS method=Tests.Take_a_Break_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Resume_Class_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:20Z" name="Resume_Class_Page" finished-at="2022-11-30T13:22:49Z" depends-on-methods="tests.Tests.Take_a_Break_Page" duration-ms="29467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resume_Class_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:49Z" name="reponse" finished-at="2022-11-30T13:22:50Z" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Resume_Class_Page status=SUCCESS method=Tests.Resume_Class_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Report_Class_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:50Z" name="Report_Class_Page" finished-at="2022-11-30T13:22:56Z" depends-on-methods="tests.Tests.Resume_Class_Page" duration-ms="6575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report_Class_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:56Z" name="reponse" finished-at="2022-11-30T13:22:57Z" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Report_Class_Page status=SUCCESS method=Tests.Report_Class_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Student_Attendance_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:22:57Z" name="Student_Attendance_Page" finished-at="2022-11-30T13:23:06Z" depends-on-methods="tests.Tests.Report_Class_Page" duration-ms="9685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Student_Attendance_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:23:06Z" name="reponse" finished-at="2022-11-30T13:23:07Z" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Student_Attendance_Page status=SUCCESS method=Tests.Student_Attendance_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method signature="Logout_Page()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:23:07Z" name="Logout_Page" finished-at="2022-11-30T13:23:36Z" depends-on-methods="tests.Tests.Student_Attendance_Page" duration-ms="29125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Page -->
+        <test-method is-config="true" signature="reponse(org.testng.ITestResult)[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:23:36Z" name="reponse" finished-at="2022-11-30T13:23:36Z" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout_Page status=SUCCESS method=Tests.Logout_Page()[pri:0, instance:tests.Tests@172b013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reponse -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:23:36Z" name="teardown" finished-at="2022-11-30T13:23:37Z" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:tests.Tests@172b013]" started-at="2022-11-30T13:23:37Z" name="reportTeardown" finished-at="2022-11-30T13:23:38Z" depends-on-methods="tests.BaseClass.teardown" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
